@@ -1,0 +1,32 @@
+# Node & Build artifacts
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Environment variables & secrets
+.env*
+!.env.example
+
+# Local SQLite databases & temporary audio files
+data/
+data/audio/
+*.sqlite
+*.db
+lectra_python/temp_audio/
+lectra_python/lectra.db
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# OS specific
+.DS_Store
+Thumbs.db

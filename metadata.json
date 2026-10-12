@@ -1,0 +1,10 @@
+{
+  "name": "Lectra - AI Lecture to Notes Platform",
+  "description": "Transform lectures into structured transcripts, organized notes, study guides, and student learning material with AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
